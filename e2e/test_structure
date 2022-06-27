@@ -1,0 +1,32 @@
+describe('My First Test Suite ', () => {
+  describe('Test Suite section one', () => {
+    beforeeach('code for every test',()=>{
+    cy.visit('https://demoqa.com/')
+    //repatative code
+    })
+    })
+
+    it('test case 1 ', () => {
+      cy.visit('https://demoqa.com/')
+    })
+    it('test case 2', () => {
+      cy.visit('https://demoqa.com/')
+    })
+    it('test case 3', () => {
+      cy.visit('https://demoqa.com/')
+    })
+  })
+
+
+
+describe('My second Test Suite ', () => {
+  it('test case 1 ', () => {
+    cy.visit('https://demoqa.com/')
+  })
+  it('test case 2', () => {
+    cy.visit('https://demoqa.com/')
+  })
+  it(' test case 1 ', () => {
+    cy.visit('https://demoqa.com/')
+  })
+})
